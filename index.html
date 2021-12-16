@@ -9,8 +9,49 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="header">
-        <h1 class="main"></h1>
+    <div class="header bg-success bg-gradient p-3 shadow-lg">
+        <h1 class="main text-center text-light">Weather Tracker</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+               <div class="search-bar pb-4">
+                    <h2 class="pt-5">Search for a City:</h2>
+                    <input class="text-center my-2 rounded"type="text" id="city" name="city-search" placeholder="City Name"> <br>
+                    <button class="btn btn-outline-primary mt-2 btn-md rounded">Search</button>
+               </div>
+               <div class="city-list">
+                   <ul>
+                        <button class="btn btn-outline-primary my-4 btn-md rounded">city name here</button>
+                   </ul>
+               </div> 
+            </div>
+            <div class="col-9">
+                <div class="card my-5 p-5 border border-2">
+                    <h1 class="text-center">city</h1>
+                </div>
+                <div class="row d-flex justify-content-around" id="five-day">
+                    <h2 class="pb-4">5-Day Forecast:</h2>
+                    <div class="card col-2 p-5">
+                        <p>day one</p>
+                    </div>
+                    <div class="card col-2 p-5">
+                        <p>day two</p>
+                    </div>
+                    <div class="card col-2 p-5">
+                        <p>day 3</p>
+                    </div>
+                    <div class="card col-2 p-5">
+                        <p>day 4</p>
+                    </div>
+                    <div class="card col-2 p-5">
+                        <p>day 5</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+
     </div>
     
 
